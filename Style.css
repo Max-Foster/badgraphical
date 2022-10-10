@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Minecraftia";
+    src: url(Fonts/MINECRAFTIA.TTF);
+  }
+  input[type="submit"] {
+    cursor: pointer;
+  }
+  h1 {
+    font-family: "Minecraftia";
+    font-size: xx-large;
+    font-weight: normal;
+    color: rgb(235, 245, 255);
+  }
+  a {
+    font-family: "Minecraftia";
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(100, 130, 255);
+  }
+  p {
+    font-family: "Minecraftia";
+    font-size: 11px;
+    font-weight: normal;
+    color: rgb(235, 245, 255);
+  }
+  .link2 {
+    position: relative;
+    left: 20px;
+  }
+  .link3 {
+    position: relative;
+    left: 40px;
+  }
+  .link4 {
+    position: relative;
+    left: 60px;
+  }
+  .copyright {
+    font-family: "Minecraftia";
+    font-size: 10px;
+    position: absolute;
+    top: 35px;
+    left: 800px;
+  }
+  .total {
+    font-family: "Minecraftia";
+    font-size: 10px;
+    color: rgb(100, 240, 100);
+    position: absolute;
+    top: 39px;
+    left: 330px;
+  }
+  .tag {
+    font-family: "Minecraftia";
+    font-size: 11px;
+    font-weight: normal;
+    color: rgb(100, 240, 100);
+  }
+  .img1 {
+    width: 640px;
+    height: 360px;
+    object-fit: scale-down;
+    float: left;
+    margin: 0 0 10px 10px;
+    position: absolute;
+    top: 550px;
+  }
+  .img2 {
+    width: 640px;
+    height: 360px;
+    object-fit: scale-down;
+    float: left;
+    margin: 0 0 10px 10px;
+    position: absolute;
+    top: 150px;
+  }
+  .txt1 {
+    position: absolute;
+    top: 550px;
+    left: 670px;
+  }
+  .txt2 {
+    position: absolute;
+    top: 150px;
+    left: 670px;
+  }
