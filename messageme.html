@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Message me</title>
+    <link rel="shortcut icon" type="image/png" href="WebFiles/mcss.png" />
+    <link href="Style.css" rel="stylesheet" />
+  </head>
+  <body background="WebFiles/wet.png">
+    <h1>Message me</h1>
+    <a href="index.html">Back</a>
+    <p class="copyright"><em>random </em>2022<br />Created By JavaScratch</p>
+    <hr />
+    <form onsubmit="sendEmail(); reset(); return false;">
+      <input
+        class="sameasp"
+        type="text"
+        placeholder="Email"
+        id="email"
+        required
+      />
+      <textarea
+        class="sameasp"
+        placeholder="Message"
+        rows="5"
+        id="mes"
+        required
+      ></textarea>
+      <button class="sameasp" type="reset">Clear</button>
+      <button class="sameasp" type="submit">Send</button>
+    </form>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail() {
+        Email.send({
+          Host: "smtp.elasticemail.com",
+          Username: "puddydecat@gmail.com",
+          Password: "D31B485982CE73C5C012950D41EFC0F8D671",
+          To: "puddydecat@gmail.com",
+          From: "puddydecat@gmail.com",
+          Subject: "New message",
+          Body: "From: ".concat(
+            document.getElementById("email").value,
+            "<br/><br/>",
+            document.getElementById("mes").value
+          ),
+        }).then(("Email sent successfully") => alert(message));
+      }
+    </script>
+  </body>
+</html>

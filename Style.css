@@ -2,31 +2,35 @@
     font-family: "Minecraftia";
     src: url(Fonts/MINECRAFTIA.TTF);
   }
-  input[type="submit"] {
+  form button {
     cursor: pointer;
+    width: 50px;
+    margin: 2px 0;
+    border: 0;
   }
   h1 {
     font-family: "Minecraftia";
     font-size: xx-large;
     font-weight: normal;
-    color: rgb(235, 245, 255);
+    color: black;
   }
   a {
     font-family: "Minecraftia";
     font-size: 13px;
     font-weight: normal;
-    color: rgb(100, 130, 255);
+    color: rgb(32, 76, 255);
   }
   p {
     font-family: "Minecraftia";
-    font-size: 11px;
+    font-size: 13px;
     font-weight: normal;
-    color: rgb(235, 245, 255);
+    color: black;
   }
   .sameasp {
-    font-family: "Minecraftia"; ;
+    font-family: "Minecraftia";
+    font-size: 10px;
     font-weight: normal;
-    color: rgb(235, 245, 255);
+    color: black;
   }
   .link2 {
     position: relative;
@@ -42,18 +46,10 @@
   }
   .copyright {
     font-family: "Minecraftia";
-    font-size: 10px;
+    font-size: 11px;
     position: absolute;
     top: 35px;
     left: 800px;
-  }
-  .total {
-    font-family: "Minecraftia";
-    font-size: 10px;
-    color: rgb(100, 240, 100);
-    position: absolute;
-    top: 39px;
-    left: 330px;
   }
   .tag {
     font-family: "Minecraftia";
@@ -61,31 +57,14 @@
     font-weight: normal;
     color: rgb(100, 240, 100);
   }
-  .img1 {
-    width: 640px;
-    height: 360px;
-    object-fit: scale-down;
-    float: left;
-    margin: 0 0 10px 10px;
-    position: absolute;
-    top: 550px;
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
   }
-  .img2 {
-    width: 640px;
-    height: 360px;
-    object-fit: scale-down;
-    float: left;
-    margin: 0 0 10px 10px;
-    position: absolute;
-    top: 150px;
-  }
-  .txt1 {
-    position: absolute;
-    top: 550px;
-    left: 670px;
-  }
-  .txt2 {
-    position: absolute;
-    top: 150px;
-    left: 670px;
+  form input, form textarea {
+    border: 0;
+    outline: none;
+    margin: 2px 0px;
   }
