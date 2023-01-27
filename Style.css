@@ -5,13 +5,7 @@
   body{
     display: flex;
     justify-content: center;
-    background-image: url("WebFiles/new.png");
-  }
-  form button {
-    cursor: pointer;
-    width: 50px;
-    margin: 2px 0;
-    border: 0;
+    background-image: url("WebFiles/BG2.png");
   }
   h1 {
     font-family: "MainFont";
@@ -42,45 +36,20 @@
     margin-top: 1%;
     background: #dbdbdb;
   }
-  .sameasp {
-    font-family: "MainFont";
-    font-size: 13px;
-    font-weight: normal;
-    color: black;
+  .link1{
+    position: absolute;
+    top: 30px;
+    left: 10px;
   }
   .link2 {
-    position: relative;
-    left: 20px;
-  }
-  .link3 {
-    position: relative;
-    left: 40px;
-  }
-  .link4 {
-    position: relative;
-    left: 60px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
   }
   .copyright {
     font-family: "MainFont";
     font-size: 14px;
     position: absolute;
     left: 86%;
-    top: 10%;
-  }
-  .tag {
-    font-family: "MainFont";
-    font-size: 14px;
-    font-weight: normal;
-    color: rgb(100, 240, 100);
-  }
-  form{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 500px;
-  }
-  form input, form textarea {
-    border: 0;
-    outline: none;
-    margin: 2px 0px;
+    top: 20px;
   }
