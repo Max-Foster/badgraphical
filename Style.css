@@ -25,12 +25,20 @@
     font-weight: normal;
     color: black;
   }
+  hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;               
+    background-color:#bbbbbb;
+    height: 1px;
+  }
   .page{
     position: relative;
     width: 850px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     flex-wrap: wrap;
     padding: 30px;
     margin-top: 1%;
@@ -39,12 +47,12 @@
   .link1{
     position: absolute;
     top: 30px;
-    left: 10px;
+    left: 31px;
   }
   .link2 {
     position: absolute;
     top: 30px;
-    left: 80px;
+    left: 100px;
   }
   .copyright {
     font-family: "MainFont";
