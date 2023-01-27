@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "MAPCAT2";
+    font-family: "MainFont";
     src: url(Fonts/COURE.FON);
   }
   form button {
@@ -9,25 +9,26 @@
     border: 0;
   }
   h1 {
-    font-family: "MAPCAT2";
+    font-family: "MainFont";
     font-size: xx-large;
     font-weight: normal;
     color: black;
   }
   a {
-    font-family: "MAPCAT2";
+    font-family: "MainFont";
     font-size: 13px;
     font-weight: normal;
     color: rgb(32, 76, 255);
   }
   p {
-    font-family: "MAPCAT2";
+    font-family: "MainFont";
     font-size: 13px;
     font-weight: normal;
     color: black;
+    position: absolute;
   }
   .sameasp {
-    font-family: "MAPCAT2";
+    font-family: "MainFont";
     font-size: 10px;
     font-weight: normal;
     color: black;
@@ -45,14 +46,14 @@
     left: 60px;
   }
   .copyright {
-    font-family: "MAPCAT2";
+    font-family: "MainFont";
     font-size: 11px;
     position: absolute;
     top: 35px;
     left: 800px;
   }
   .tag {
-    font-family: "MAPCAT2";
+    font-family: "MainFont";
     font-size: 11px;
     font-weight: normal;
     color: rgb(100, 240, 100);
