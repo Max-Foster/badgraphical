@@ -1,6 +1,11 @@
 @font-face {
     font-family: "MainFont";
-    src: url(Fonts/COURE.FON);
+    src: url(Fonts/COURE.TTF);
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    background-image: url("WebFiles/new.png");
   }
   form button {
     cursor: pointer;
@@ -16,20 +21,30 @@
   }
   a {
     font-family: "MainFont";
-    font-size: 13px;
+    font-size: 16px;
     font-weight: normal;
     color: rgb(32, 76, 255);
   }
   p {
     font-family: "MainFont";
-    font-size: 13px;
+    font-size: 16px;
     font-weight: normal;
     color: black;
-    position: absolute;
+  }
+  .page{
+    position: relative;
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 1%;
+    background: #dbdbdb;
   }
   .sameasp {
     font-family: "MainFont";
-    font-size: 10px;
+    font-size: 13px;
     font-weight: normal;
     color: black;
   }
@@ -47,14 +62,14 @@
   }
   .copyright {
     font-family: "MainFont";
-    font-size: 11px;
+    font-size: 14px;
     position: absolute;
-    top: 35px;
-    left: 800px;
+    left: 86%;
+    top: 10%;
   }
   .tag {
     font-family: "MainFont";
-    font-size: 11px;
+    font-size: 14px;
     font-weight: normal;
     color: rgb(100, 240, 100);
   }
