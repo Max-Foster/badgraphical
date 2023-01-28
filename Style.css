@@ -60,3 +60,11 @@
     position: absolute;
     bottom: 0%;
   }
+  .hide {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;               
+    background-color:#dbdbdb;
+    height: 1px;
+  }
