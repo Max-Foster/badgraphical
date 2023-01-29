@@ -25,6 +25,16 @@
     font-weight: normal;
     color: black;
   }
+  button {
+    font-family: "MainFont";
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(32, 76, 255);
+    text-decoration-line: underline;
+    background-color: #dbdbdb;
+    border: none;
+    cursor:pointer;
+  }
   hr {
     border: 0;
     clear:both;
@@ -68,3 +78,4 @@
     background-color:#dbdbdb;
     height: 1px;
   }
+  

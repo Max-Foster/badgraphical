@@ -7,6 +7,13 @@
     <title>Message me</title>
     <link rel="shortcut icon" type="image/png" href="WebFiles/BG1.png" />
     <link href="Style.css" rel="stylesheet" />
+    <script>
+      function myFunction() {
+        var copyText = "badgraphicalstudios@gmail.com";
+        navigator.clipboard.writeText(copyText);
+        alert("Text copied to clipboard");
+      }
+    </script>
   </head>
   <body>
     <div class="page">
@@ -14,10 +21,8 @@
       <a class="link1" href="index.html">Back</a>
       <p class="copyright">Copyright<em> Bad Graphical </em>2022 - 2023</p>
       <hr />
-      <p>
-        Send feedback, bug reports or other messages to me at:
-        <a>badgraphicalstudios@gmail.com</a>
-      </p>
+      <p>Send feedback, bug reports or other messages to me at:</p>
+      <button onClick="myFunction()">badgraphicalstudios@gmail.com</button>
       <hr />
     </div>
   </body>
