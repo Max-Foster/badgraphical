@@ -89,4 +89,10 @@
   .topline {
     position: absolute;
     top: 38px;
+    border: 0;
+    clear:both;
+    display:block;
+    width: 850px;               
+    background-color:rgb(199, 199, 199);
+    height: 1px;
   }
