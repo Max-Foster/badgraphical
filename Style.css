@@ -5,7 +5,7 @@
   body{
     display: flex;
     justify-content: center;
-    background-image: url("WebFiles/BG2.png");
+    background-image: url("WebFiles/cloud.png");
   }
   h1 {
     font-family: "MainFont";
