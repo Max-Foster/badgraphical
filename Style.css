@@ -1,11 +1,11 @@
 @font-face {
     font-family: "MainFont";
-    src: url(Fonts/COURE.TTF);
+    src: url(Fonts/COUR.TTF);
   }
   body{
     display: flex;
     justify-content: center;
-    background-image: url("WebFiles/cloud.png");
+    background-color:rgb(230, 250, 250)
   }
   h1 {
     font-family: "MainFont";
@@ -16,8 +16,9 @@
   a {
     font-family: "MainFont";
     font-size: 16px;
-    font-weight: normal;
-    color: rgb(32, 76, 255);
+    font-weight: bold;
+    text-decoration-line: none;
+    color: rgb(79, 79, 79);
   }
   p {
     font-family: "MainFont";
@@ -29,9 +30,9 @@
     font-family: "MainFont";
     font-size: 16px;
     font-weight: normal;
-    color: rgb(32, 76, 255);
+    color: rgb(79, 79, 79);
     text-decoration-line: underline;
-    background-color: #dbdbdb;
+    background-color: #ffffff;
     border: none;
     cursor:pointer;
   }
@@ -40,7 +41,7 @@
     clear:both;
     display:block;
     width: 100%;               
-    background-color:#bbbbbb;
+    background-color:rgb(199, 199, 199);
     height: 1px;
   }
   .page{
@@ -52,17 +53,17 @@
     flex-wrap: wrap;
     padding: 30px;
     margin-top: 1%;
-    background: #dbdbdb;
+    background: #ffffff;
   }
   .link1{
     position: absolute;
-    top: 30px;
-    left: 31px;
+    top: 17px;
+    left: 71px;
   }
   .link2 {
     position: absolute;
-    top: 30px;
-    left: 100px;
+    top: 17px;
+    left: 140px;
   }
   .copyright {
     font-family: "MainFont";
@@ -78,8 +79,14 @@
     background-color:#dbdbdb;
     height: 1px;
   }
-  .face{
-    width: 50px;
-    height: 50px;
+  .logo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    left: 30px;
   }
-  
+  .topline {
+    position: absolute;
+    top: 38px;
+  }
