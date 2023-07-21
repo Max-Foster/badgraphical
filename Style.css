@@ -1,6 +1,6 @@
 @font-face {
     font-family: "MainFont";
-    src: url(Fonts/COUR.TTF);
+    src: url(Fonts/VERDANA.TTF);
   }
   body{
     display: flex;
