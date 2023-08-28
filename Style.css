@@ -1,38 +1,38 @@
 @font-face {
     font-family: "MainFont";
-    src: url(Fonts/VERDANA.TTF);
+    src: url(Fonts/BRLNSR.TTF);
   }
   body{
     display: flex;
     justify-content: center;
-    background-color:rgb(79, 79, 79);
+    background-color:rgb(138, 42, 42);
   }
   h1 {
     font-family: "MainFont";
     font-size: xx-large;
     font-weight: normal;
-    color: black;
+    color: rgb(255, 255, 255);
   }
   a {
     font-family: "MainFont";
     font-size: 16px;
     font-weight: bold;
     text-decoration-line: none;
-    color: rgb(79, 79, 79);
+    color: rgb(255, 255, 255);
   }
   p {
     font-family: "MainFont";
     font-size: 16px;
     font-weight: normal;
-    color: black;
+    color: rgb(255, 255, 255);
   }
   button {
     font-family: "MainFont";
     font-size: 16px;
     font-weight: normal;
-    color: rgb(79, 79, 79);
+    color: rgb(255, 255, 255);
     text-decoration-line: underline;
-    background-color: #ffffff;
+    background-color: rgb(70, 100, 128);
     border: none;
     cursor:pointer;
   }
@@ -53,7 +53,7 @@
     flex-wrap: wrap;
     padding: 30px;
     margin-top: 1%;
-    background: #ffffff;
+    background: rgb(70, 100, 128);
   }
   .link1{
     position: absolute;
