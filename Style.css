@@ -41,7 +41,7 @@
     clear:both;
     display:block;
     width: 100%;               
-    background-color:rgb(199, 199, 199);
+    background-color:rgb(76, 107, 137);
     height: 1px;
   }
   .page{
@@ -53,7 +53,7 @@
     flex-wrap: wrap;
     padding: 30px;
     margin-top: 1%;
-    background: rgb(70, 100, 128);
+    background: rgb(69, 100, 130);
   }
   .link1{
     position: absolute;
@@ -76,7 +76,7 @@
     clear:both;
     display:block;
     width: 100%;
-    background-color:#dbdbdb;
+    background-color: rgb(70, 100, 128);
     height: 1px;
   }
   .logo {
@@ -95,4 +95,16 @@
     width: 850px;               
     background-color:rgb(199, 199, 199);
     height: 1px;
+  }
+  .dtype {
+    color: rgb(70, 255, 42);
+  }
+  .htype {
+    color: rgb(255, 170, 42);
+  }
+  .rtype {
+    color: rgb(92, 190, 255);
+  }
+  .ntype {
+    color: rgb(255, 69, 69);
   }
