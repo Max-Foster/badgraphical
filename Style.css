@@ -1,17 +1,22 @@
 @font-face {
     font-family: "MainFont";
     src: url(Fonts/sserife.ttf);
-  }
+}
+@font-face {
+  font-family: "BG";
+  src: url(Fonts/bgfont.ttf);
+}
   body{
     display: flex;
     justify-content: center;
     background-color:rgb(190, 240, 255);
   }
   h1 {
-    font-family: "MainFont";
-    font-size: xx-large;
+    font-family: "BG";
+    font-size: 23px;
     font-weight: normal;
-    color: rgb(255, 255, 255);
+    color: rgb(195, 195, 195);
+    background-color: rgb(255, 0, 0);
   }
   a {
     font-family: "MainFont";
