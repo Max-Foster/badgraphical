@@ -2,13 +2,17 @@
     font-family: "MainFont";
     src: url(Fonts/sserife.ttf);
 }
+@font-face {
+  font-family: "SecondFont";
+  src: url(Fonts/bgfont.TTF);
+}
   body{
     display: flex;
     justify-content: center;
     background-color:rgb(190, 240, 255);
   }
   h1 {
-    font-family: "MainFont";
+    font-family: "SecondFont";
     font-size: 27px;
     font-weight: normal;
     color: rgb(195, 195, 195);
