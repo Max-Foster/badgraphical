@@ -1,10 +1,10 @@
 @font-face {
     font-family: "MainFont";
-    src: url(Fonts/GOTHIC.TTF);
+    src: url(Fonts/TREBUC.TTF);
 }
 @font-face {
   font-family: "SecondFont";
-  src: url(Fonts/GOTHICB.TTF);
+  src: url(Fonts/TREBUCBD.TTF);
 }
   body{
     display: flex;
@@ -13,31 +13,31 @@
   }
   h1 {
     font-family: "SecondFont";
-    font-size: 27px;
+    font-size: 50px;
     font-weight: normal;
-    color: rgb(195, 195, 195);
-    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    padding-top: 25px;
   }
   a {
     font-family: "MainFont";
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     text-decoration-line: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   p {
     font-family: "MainFont";
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   button {
     font-family: "MainFont";
     font-size: 16px;
     font-weight: normal;
-    color: rgb(255, 255, 255);
+    color: blue;
     text-decoration-line: underline;
-    background-color: rgb(70, 100, 128);
+    background-color: rgb(228, 228, 228);
     border: none;
     cursor:pointer;
   }
@@ -48,6 +48,7 @@
     width: 100%;               
     background-color:rgb(76, 107, 137);
     height: 1px;
+    padding-top: 5px;
   }
   .page{
     position: relative;
@@ -58,7 +59,7 @@
     flex-wrap: wrap;
     padding: 30px;
     margin-top: 1%;
-    background: rgb(69, 100, 130);
+    background: rgb(228, 228, 228);
   }
   .link1{
     position: absolute;
@@ -103,13 +104,17 @@
   }
   .dtype {
     color: rgb(70, 255, 42);
+    background-color:rgb(0, 0, 0);
   }
   .htype {
-    color: rgb(255, 170, 42);
+    color: rgb(255, 174, 22);
+    background-color:rgb(0, 0, 0);
   }
   .rtype {
-    color: rgb(92, 190, 255);
+    color: rgb(123, 202, 255);
+    background-color:rgb(0, 0, 0);
   }
   .ntype {
-    color: rgb(255, 69, 69);
+    color: rgb(255, 47, 47);
+    background-color:rgb(0, 0, 0);
   }
