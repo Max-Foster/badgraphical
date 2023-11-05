@@ -1,10 +1,10 @@
 @font-face {
     font-family: "MainFont";
-    src: url(Fonts/Montserrat-Regular.ttf);
+    src: url(Fonts/Montserrat-Medium.ttf);
 }
 @font-face {
   font-family: "SecondFont";
-  src: url(Fonts/Montserrat-Medium.ttf);
+  src: url(Fonts/Montserrat-SemiBold.ttf);
 }
   body{
     display: flex;
