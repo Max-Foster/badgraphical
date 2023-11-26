@@ -1,37 +1,29 @@
-@font-face {
-    font-family: "MainFont";
-    src: url(Fonts/Montserrat-Medium.ttf);
-}
-@font-face {
-  font-family: "SecondFont";
-  src: url(Fonts/Montserrat-SemiBold.ttf);
-}
   body{
     display: flex;
     justify-content: center;
     background-color:rgb(190, 240, 255);
   }
   h1 {
-    font-family: "SecondFont";
+    font-family: "Tahoma";
     font-size: 50px;
     font-weight: normal;
     color: rgb(0, 0, 0);
   }
   a {
-    font-family: "MainFont";
+    font-family: "Tahoma";
     font-size: 18px;
     font-weight: bold;
     text-decoration-line: none;
     color: rgb(0, 0, 0);
   }
   p {
-    font-family: "MainFont";
+    font-family: "Tahoma";
     font-size: 18px;
     font-weight: normal;
     color: rgb(0, 0, 0);
   }
   button {
-    font-family: "MainFont";
+    font-family: "Tahoma";
     font-size: 16px;
     font-weight: normal;
     color: rgb(255, 47, 47);
@@ -82,7 +74,7 @@
     color: rgb(255, 47, 47);
   }
   .copyright {
-    font-family: "MainFont";
+    font-family: "Tahoma";
     font-size: 14px;
     position: absolute;
     bottom: 0%;
