@@ -81,6 +81,7 @@
     font-size: 14px;
     position: absolute;
     bottom: 0%;
+    left: 5px;
     color: rgb(255, 47, 47);
   }
   .hide {
