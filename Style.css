@@ -1,7 +1,8 @@
   body{
     display: flex;
     justify-content: center;
-    background-color:rgb(60, 60, 60);
+    background-image: url("WebFiles/Tiled.png");
+    background-size: 100%;
   }
   h1 {
     font-family: "Verdana";
@@ -48,7 +49,7 @@
     justify-content: left;
     align-items: left;
     flex-wrap: wrap;
-    background: rgb(40, 40, 40);
+    background: rgba(40, 40, 40, 0.4);
     padding: 5px;
     padding-bottom: 25px;
   }
