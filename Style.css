@@ -1,8 +1,7 @@
   body{
     display: flex;
     justify-content: center;
-    background-image: url("WebFiles/Tiled.png");
-    background-size: 100%;
+    background-color:rgb(16, 3, 3);
   }
   h1 {
     font-family: "Verdana";
@@ -29,7 +28,7 @@
     font-weight: normal;
     color: rgb(255, 47, 47);
     text-decoration-line: underline;
-    background-color: rgb(40, 40, 40);
+    background-color: rgba(255, 255, 255, 0);
     border: none;
     cursor:pointer;
   }
@@ -49,7 +48,7 @@
     justify-content: left;
     align-items: left;
     flex-wrap: wrap;
-    background: rgba(40, 40, 40, 0.4);
+    background: rgb(40, 40, 40);
     padding: 5px;
     padding-bottom: 25px;
   }
@@ -113,19 +112,19 @@
   }
   .rtype {
     color: rgb(70, 255, 42);
-    background-color:rgb(40, 40, 40);
+    background-color: rgba(255, 255, 255, 0);
   }
   .htype {
     color: rgb(255, 174, 22);
-    background-color:rgb(40, 40, 40);
+    background-color: rgba(255, 255, 255, 0);
   }
   .dtype {
     color: rgb(123, 202, 255);
-    background-color:rgb(40, 40, 40);
+    background-color: rgba(255, 255, 255, 0);
   }
   .ntype {
     color: rgb(255, 47, 47);
-    background-color:rgb(40, 40, 40);
+    background-color: rgba(255, 255, 255, 0);
   }
   .mainH{
     position: absolute;
