@@ -60,6 +60,17 @@
     align-items: left;
     flex-wrap: wrap;
   }
+  .bold{
+    font-weight: bold;
+  }
+  .light{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    height: 1px;
+  }
   .back{
     width: 900px;
     height: 100px;
@@ -80,7 +91,7 @@
     font-family: "Verdana";
     font-size: 14px;
     position: absolute;
-    bottom: 0%;
+    bottom: 6px;
     left: 5px;
     color: rgb(255, 47, 47);
   }
@@ -89,7 +100,7 @@
     clear:both;
     display:block;
     width: 100%;
-    background-color: rgb(70, 100, 128);
+    background-color: rgb(40, 40, 40);
     height: 1px;
   }
   .logo {
@@ -113,18 +124,22 @@
   .rtype {
     color: rgb(70, 255, 42);
     background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
   }
   .htype {
     color: rgb(255, 174, 22);
     background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
   }
   .dtype {
     color: rgb(123, 202, 255);
     background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
   }
   .ntype {
     color: rgb(255, 47, 47);
     background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
   }
   .mainH{
     position: absolute;
