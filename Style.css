@@ -87,6 +87,13 @@
     left: 115px;
     color: rgb(255, 47, 47);
   }
+  .banner {
+    text-decoration-line: underline;
+    position: absolute;
+    top: 14px;
+    right: 115px;
+    color: rgb(255, 47, 47);
+  }
   .copyright {
     font-family: "Verdana";
     font-size: 14px;
