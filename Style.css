@@ -160,6 +160,9 @@
     color: rgb(228, 228, 228);
     padding-top: 20px;
   }
+  .red{
+    color: rgb(255, 47, 47);
+  }
   ::selection{
     background-color: rgb(255, 47, 47);
     color: rgb(228, 228, 228);
