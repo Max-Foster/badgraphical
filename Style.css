@@ -1,30 +1,35 @@
+  @font-face {
+    font-family: "MainFont";
+    src: url(Fonts/Astonpoliz.ttf);
+  }
   body{
+    font-family: "Fonts/Astronpoliz.ttf";
     display: flex;
     justify-content: center;
-    background-color:rgb(16, 3, 3);
+    background-color:rgb(128, 128, 128);
   }
   h1 {
-    font-family: "Verdana";
-    font-size: 40px;
+    font-family: "MainFont";
+    font-size: 48px;
     font-weight: normal;
     color: rgb(228, 228, 228);
   }
   a {
-    font-family: "Verdana";
-    font-size: 14px;
+    font-family: "MainFont";
+    font-size: 16px;
     font-weight: bold;
     text-decoration-line: none;
     color: rgb(228, 228, 228);
   }
   p {
-    font-family: "Verdana";
-    font-size: 14px;
+    font-family: "MainFont";
+    font-size: 16px;
     font-weight: normal;
     color: rgb(228, 228, 228);
   }
   button {
-    font-family: "Verdana";
-    font-size: 14px;
+    font-family: "MainFont";
+    font-size: 16px;
     font-weight: normal;
     color: rgb(255, 47, 47);
     text-decoration-line: underline;
@@ -38,8 +43,8 @@
     display:block;
     width: 100%;               
     background-color:rgb(76, 107, 137);
-    height: 1px;
-    padding-top: 5px;
+    height: 3px;
+    padding-top: 0px;
   }
   .page{
     position: relative;
@@ -69,7 +74,7 @@
     display:block;
     width: 100%;
     background-color: rgb(50, 50, 50);
-    height: 1px;
+    height: 3px;
   }
   .back{
     width: 900px;
@@ -95,8 +100,8 @@
     color: rgb(255, 47, 47);
   }
   .copyright {
-    font-family: "Verdana";
-    font-size: 14px;
+    font-family: "MainFont";
+    font-size: 16px;
     position: absolute;
     bottom: 6px;
     left: 5px;
