@@ -21,6 +21,10 @@
     text-decoration-line: none;
     color: rgb(228, 228, 228);
   }
+  a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 47, 47);
+  }
   p {
     font-family: "MainFont";
     font-size: 16px;
