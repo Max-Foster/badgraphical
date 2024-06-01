@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Become a member</title>
+    <link rel="shortcut icon" type="image/png" href="WebFiles/logo2024.png" />
+    <link href="Style.css" rel="stylesheet" />
+    <script>
+      function copyText() {
+        var copyText = "badgraphicalstudios@gmail.com";
+        navigator.clipboard.writeText(copyText);
+        alert("Text copied to clipboard");
+      }
+
+      function copyForm() {
+        formText.select();
+        document.execCommand("copy");
+        alert("Form copied to clipboard");
+      }
+    </script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="topOfPage">
+        <img class="back" src="WebFiles/Background.png" />
+        <h1 class="mainH">Become a member</h1>
+        <a href="index.html"
+          ><img class="logo" src="WebFiles/logo2024.png" alt="Logo"
+        /></a>
+        <a class="link1" href="member.html">Back</a>
+      </div>
+      <p class="copyright">Copyright © 2024<em> BadGraphical </em></p>
+      <hr />
+      <p>Please fill out this form, then copy it and email it to us at</p>
+      <button class="copyButton" onClick="copyText()">badgraphicalstudios@gmail.com</button>
+      <p>.</p>
+      <hr class="light" />
+      <button class="copyButton" onclick="copyForm()">Copy Form</button>
+      <hr class="light" />
+      <textarea id="formText">
+--------------------------------------------------
+PLEASE DO NOT EDIT/DELETE ANY PRE-WRITTEN TEXT.
+DOING SO WILL RESULT IN YOUR REQUEST BEING DENIED.
+--------------------------------------------------
+READ ME :
+
+I wish to become a member of BadGraphical Studios.
+I understand that my request may be denied, even
+if the reason for denial is unclear. I understand
+that becoming a member may not be permanent, and
+I could have my membership revoked at any time,
+even if the reason is unclear.
+--------------------------------------------------
+Personal Information
+--------------------------------------------------
+First Name :
+Surname    :
+Email      :
+Phone No.  :
+
+Please answer (YES/NO)
+
+Do you understand the processes of how video games
+are created?
+:
+
+Do you play video games often?
+:
+
+Have you ever created a video game?
+:
+--------------------------------------------------
+What I wish to do at BadGraphical Studios
+--------------------------------------------------
+Positions
+  - Animator
+     Animators animate characters and other
+     models. FBX files will be used for
+     animations.
+  - Coder
+     Coders help create features in games. At
+     BadGraphical, we code using the Java language
+     and the OpenGL graphics API.
+  - Modeller
+     Modellers create characters and other models.
+     They also create and map textures for the
+     models. FBX files will be used for models.
+  - Ideas and concepts
+     Members of the Ideas and Concepts team help
+     us think of new ideas, for new and existing
+     projects.
+     
+Select the position(s) you would like to acquire
+and tell us why
+:</textarea
+      >
+      <hr />
+      <hr class="hide" />
+    </div>
+  </body>
+</html>
