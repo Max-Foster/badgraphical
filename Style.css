@@ -21,6 +21,12 @@
     font-weight: normal;
     color: rgb(228, 228, 228);
   }
+  h3 {
+    font-family: "Heading";
+    font-size: 28px;
+    font-weight: normal;
+    color: rgb(228, 228, 228);
+  }
   a {
     font-family: "MainFont";
     font-size: 16px;
@@ -108,13 +114,19 @@
   .link2 {
     position: absolute;
     top: 14px;
-    left: 115px;
+    left: 121px;
     color: rgb(255, 47, 47);
   }
   .link3 {
     position: absolute;
     top: 14px;
-    left: 217px;
+    left: 184px;
+    color: rgb(255, 47, 47);
+  }
+  .link4 {
+    position: absolute;
+    top: 14px;
+    left: 287px;
     color: rgb(255, 47, 47);
   }
   .banner {
@@ -128,7 +140,7 @@
     font-family: "MainFont";
     font-size: 16px;
     position: absolute;
-    bottom: -8px;
+    bottom: -11px;
     left: 5px;
     color: rgb(255, 47, 47);
   }
@@ -147,6 +159,16 @@
     top: 10px;
     left: 10px;
   }
+  .news{
+    font-family: "Heading";
+    font-size: 28px;
+    font-weight: normal;
+    color: rgb(228, 228, 228);
+    font-style: normal;
+  }
+  .small{
+    font-size: 12px;
+  }
   .topline {
     position: absolute;
     top: 38px;
@@ -161,32 +183,41 @@
   .rtype {
     color: rgb(70, 255, 42);
     background-color: rgba(255, 255, 255, 0);
-    font-weight: bold;
+    font-style: normal;
   }
   .htype {
     color: rgb(255, 174, 22);
     background-color: rgba(255, 255, 255, 0);
-    font-weight: bold;
+    font-style: normal;
   }
   .dtype {
     color: rgb(123, 202, 255);
     background-color: rgba(255, 255, 255, 0);
-    font-weight: bold;
+    font-style: normal;
   }
   .ntype {
     color: rgb(255, 47, 47);
     background-color: rgba(255, 255, 255, 0);
-    font-weight: bold;
+    font-style: normal;
   }
   .mainH{
     position: absolute;
-    top: -9px;
+    top: -10px;
     left: 10px;
     color: rgb(228, 228, 228);
     padding-top: 20px;
   }
   .red{
     color: rgb(255, 47, 47);
+  }
+  .white{
+    color: rgb(255, 255, 255);
+  }
+  .normal{
+    font-style: normal;
+  }
+  .underline{
+    text-decoration-line: underline;
   }
   .copyButton{
     text-decoration-line: none;
