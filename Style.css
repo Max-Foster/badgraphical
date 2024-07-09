@@ -10,7 +10,7 @@
     font-family: "MainFont";
     display: flex;
     justify-content: center;
-    background-image: url(WebFiles/background.png);
+    background-image: url(WebFiles/backgroundImg.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
