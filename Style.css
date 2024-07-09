@@ -1,15 +1,22 @@
   @font-face {
     font-family: "MainFont";
-    src: url(Fonts/Astonpoliz.ttf);
+    src: url(Fonts/DMSans-Light.ttf);
+  }
+  @font-face {
+    font-family: "Heading";
+    src: url(Fonts/DMSans-Medium.ttf);
   }
   body{
-    font-family: "Fonts/Astronpoliz.ttf";
+    font-family: "MainFont";
     display: flex;
     justify-content: center;
-    background-color:rgb(128, 128, 128);
+    background-image: url(WebFiles/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
   }
   h1 {
-    font-family: "MainFont";
+    font-family: "Heading";
     font-size: 48px;
     font-weight: normal;
     color: rgb(228, 228, 228);
