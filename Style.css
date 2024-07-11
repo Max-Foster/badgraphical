@@ -108,25 +108,25 @@
   .link1{
     position: absolute;
     top: 14px;
-    left: 51px;
+    left: 61px;
     color: rgb(255, 47, 47);
   }
   .link2 {
     position: absolute;
     top: 14px;
-    left: 121px;
+    left: 131px;
     color: rgb(255, 47, 47);
   }
   .link3 {
     position: absolute;
     top: 14px;
-    left: 184px;
+    left: 194px;
     color: rgb(255, 47, 47);
   }
   .link4 {
     position: absolute;
     top: 14px;
-    left: 287px;
+    left: 297px;
     color: rgb(255, 47, 47);
   }
   .banner {
@@ -157,7 +157,7 @@
     width: 28px;
     height: 28px;
     top: 10px;
-    left: 10px;
+    left: 13px;
   }
   .news{
     font-family: "Heading";
