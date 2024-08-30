@@ -14,6 +14,7 @@
 body{
   font-family: "MainFont";
   background-color: white;
+  font-size: 100%;
 }
 h1 {
   font-family: "Heading";
@@ -24,8 +25,8 @@ h1 {
 }
 h3 {
   font-family: "Heading";
-  font-size: 28px;
-  font-weight: normal;
+  font-size: 32px;
+  font-weight: bold;
   color: black;
 }
 a {
@@ -41,7 +42,7 @@ a:hover {
 }
 p {
   font-family: "MainFont";
-  font-size: 18;
+  font-size: 18px;
   font-weight: normal;
   color: black;
 }
@@ -58,12 +59,22 @@ button {
 hr {
   border: 0;
   width: 99%;               
-  background-color: rgb(255, 47, 47);
+  background-color: rgb(255, 128, 128);
 }
 .underHeading {
   position: absolute;
   height: 3px;
   top: 150px; 
+}
+.underTitle {
+  position: absolute;
+  height: 3px;
+  top: 250px; 
+}
+.aboveFooter {
+  position: absolute;
+  height: 3px;
+  bottom: 80px; 
 }
 textarea{
   font-family: Consolas;
@@ -101,12 +112,15 @@ textarea{
 .bold{
   font-weight: bold;
 }
-.news{
+.pageTitle{
   font-family: "Heading";
-  font-size: 28px;
+  font-size: 48px;
   font-weight: normal;
   color: black;
   font-style: normal;
+  position: absolute;
+  top: 140px;
+  left: 2%;
 }
 .small{
   font-size: 12px;
@@ -217,7 +231,8 @@ textarea{
   font-family: "MainFont";
   font-size: 16px;
   position: absolute;
-  bottom: -11px;
+  bottom: 1%;
+  left: 2%;
   color: rgb(255, 47, 47);
 }
 
