@@ -2,42 +2,38 @@
 
 @font-face {
   font-family: "MainFont";
-  src: url(Fonts/DMSans-Light.ttf);
+  src: url(Fonts/EdgecuttingLiteMedium.ttf);
 }
 @font-face {
   font-family: "Heading";
-  src: url(Fonts/DMSans-Medium.ttf);
+  src: url(Fonts/EdgecuttingLiteMedium.ttf);
 }
 
 /* Intergrated CSS */
 
 body{
   font-family: "MainFont";
-  display: flex;
-  justify-content: center;
-  background-image: url(WebFiles/backgroundImg.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  background-color: white;
 }
 h1 {
   font-family: "Heading";
   font-size: 48px;
   font-weight: normal;
-  color: rgb(228, 228, 228);
+  color: black;
+  text-align: center;
 }
 h3 {
   font-family: "Heading";
   font-size: 28px;
   font-weight: normal;
-  color: rgb(228, 228, 228);
+  color: black;
 }
 a {
   font-family: "MainFont";
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   text-decoration-line: none;
-  color: rgb(228, 228, 228);
+  color: black;
 }
 a:hover {
   text-decoration-line: underline;
@@ -45,13 +41,13 @@ a:hover {
 }
 p {
   font-family: "MainFont";
-  font-size: 16px;
+  font-size: 18;
   font-weight: normal;
-  color: rgb(228, 228, 228);
+  color: black;
 }
 button {
   font-family: "MainFont";
-  font-size: 16px;
+  font-size: 18;
   font-weight: normal;
   color: rgb(255, 47, 47);
   text-decoration-line: underline;
@@ -61,12 +57,13 @@ button {
 }
 hr {
   border: 0;
-  clear:both;
-  display:block;
-  width: 100%;               
-  background-color:rgb(76, 107, 137);
+  width: 99%;               
+  background-color: rgb(255, 47, 47);
+}
+.underHeading {
+  position: absolute;
   height: 3px;
-  padding-top: 0px;
+  top: 150px; 
 }
 textarea{
   font-family: Consolas;
@@ -108,7 +105,7 @@ textarea{
   font-family: "Heading";
   font-size: 28px;
   font-weight: normal;
-  color: rgb(228, 228, 228);
+  color: black;
   font-style: normal;
 }
 .small{
@@ -129,7 +126,7 @@ textarea{
   position: absolute;
   top: -10px;
   left: 10px;
-  color: rgb(228, 228, 228);
+  color: black;
   padding-top: 20px;
 }
 .red{
@@ -187,27 +184,31 @@ textarea{
 }
 .link1{
   position: absolute;
-  top: 14px;
-  left: 61px;
+  top: 120px;
+  left: 20%;
   color: rgb(255, 47, 47);
+  text-align: center;
 }
 .link2 {
   position: absolute;
-  top: 14px;
-  left: 131px;
+  top: 120px;
+  left: 40%;
   color: rgb(255, 47, 47);
+  text-align: center;
 }
 .link3 {
   position: absolute;
-  top: 14px;
-  left: 194px;
+  top: 120px;
+  right: 40%;
   color: rgb(255, 47, 47);
+  text-align: center;
 }
 .link4 {
   position: absolute;
-  top: 14px;
-  left: 297px;
+  top: 120px;
+  right: 20%;
   color: rgb(255, 47, 47);
+  text-align: center;
 }
 
 /* Footer */
@@ -217,7 +218,6 @@ textarea{
   font-size: 16px;
   position: absolute;
   bottom: -11px;
-  left: 5px;
   color: rgb(255, 47, 47);
 }
 
@@ -247,7 +247,7 @@ textarea{
 }
 ::selection{
   background-color: rgb(255, 47, 47);
-  color: rgb(228, 228, 228);
+  color: white;
 }
 .tooltip{
   cursor: pointer;
