@@ -46,7 +46,7 @@ a {
   font-size: 18px;
   font-weight: bold;
   text-decoration-line: none;
-  color: black;
+  color: rgb(255, 47, 47);
 }
 a:hover {
   text-decoration-line: underline;
