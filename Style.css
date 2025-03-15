@@ -1,253 +1,120 @@
-/* Font Faces */
-
 @font-face {
   font-family: "MainFont";
   src: url(Fonts/EdgecuttingLiteMedium.ttf);
 }
-@font-face {
-  font-family: "Heading";
-  src: url(Fonts/EdgecuttingLiteMedium.ttf);
-}
-
-/* Intergrated CSS */
-
-body{
-  font-family: "MainFont";
-  background-color: black;
+body {
+  font-family:"MainFont";
+  font-weight: normal;
+  font-style: normal;
   font-size: 100%;
-  margin-left: 40px;
-}
-h1 {
-  font-family: "Heading";
-  font-size: 48px;
-  font-weight: normal;
-  color: white;
-  text-align: center;
-}
-.mainHeading {
-  font-family: "Heading";
-  font-size: 56px;
-  font-weight: normal;
-  color: white;
-  text-align: center;
-  position: absolute;
-  top: 30px;
-  left: 50%;
-  width: 100%;
-  transform: translate(-50%, 0);
-}
-h3 {
-  font-family: "Heading";
-  font-size: 32px;
-  font-weight: bold;
-  color: white;
+  background-image: url("WebFiles/background.png"); /* Remember to change the background! */
+  background-size: 20%;
 }
 a {
-  font-family: "MainFont";
-  font-size: 18px;
+  color: white;
   font-weight: bold;
   text-decoration-line: none;
   color: rgb(255, 47, 47);
-}
-a:hover {
-  text-decoration-line: underline;
-  text-decoration-color: rgb(255, 47, 47);
-}
-p {
-  font-family: "MainFont";
-  font-size: 18px;
-  font-weight: normal;
-  color: white;
-  margin-right: 40px;
-}
-button {
-  font-family: "MainFont";
-  font-size: 18px;
-  font-weight: normal;
-  color: rgb(255, 47, 47);
-  background-color: rgba(255, 255, 255, 0);
-  border: none;
-  cursor:pointer;
-  position: absolute;
-  left: -6px;
-}
-hr {
-  position: absolute;
-  left: 0%;
-  border: 0;
-  width: 100%;
-  background-color: rgb(255, 47, 47);
-}
-.aboveFooter {
-  position: absolute;
-  height: 3px;
-  bottom: 80px; 
 }
 textarea{
   font-family: Consolas;
   font-size: 16px;
   color: white;
   background-color: black;
-  width: 1047px;
-  height: 2500px;
+  width: 800px;
+  height: 800px;
   resize: none;
 }
-
-/* Page */
-
-.page{
-  position: relative;
-  width: 900px;
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  flex-wrap: wrap;
-  background: rgb(40, 40, 40);
-  padding: 5px;
-  padding-bottom: 25px;
+.tableRoot {
+  margin: 0 auto;
+  min-width: 850px;
+  max-width: 850px;
+  background-color: white;
+  border: 0px solid rgb(128, 128, 128);
+  border-spacing:0;
 }
-.topOfPage{
-  position: relative;
-  width: 900px;
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  flex-wrap: wrap;
-}
-
-/* Colours, Styles and Positions */
-
-.bold{
-  font-weight: bold;
-}
-.pageTitle{
-  font-family: "Heading";
-  font-size: 48px;
-  font-weight: normal;
+.bodyLink A {
   color: white;
-  font-style: normal;
-  position: absolute;
-  top: 140px;
+  background-color: rgb(255, 47, 47);
+  text-decoration: none;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
 }
-.small{
-  font-size: 12px;
-}
-.topline {
-  position: absolute;
-  top: 38px;
-  right: 0%;
-  border: 0;
-  clear:both;
-  display:block;
-  width: 850px;               
-  background-color:rgb(199, 199, 199);
-  height: 1px;
-}
-.red{
-  color: rgb(255, 47, 47);
-}
-.white{
-  color: rgb(255, 255, 255);
-}
-.normal{
-  font-style: normal;
-}
-.underline{
-  text-decoration-line: underline;
-}
-.copyButton{
-  text-decoration-line: underline;
-}
-
-/* Header */
-
-.logo {
-  position: absolute;
-  width: 28px;
-  height: 28px;
-  top: 10px;
-  left: 13px;
-}
-.back{
-  width: 900px;
-  height: 100px;
-}
-.link {
-  color: rgb(255, 47, 47);
-}
-.deadLink {
-  color: rgb(255, 47, 47);
-}
-.deadLink:hover {
-  text-decoration-line: none;
-}
-.linkDiv {
-  position: absolute;
-  top: 120px;
-  text-align: center;
-  transform: translate(-50%, 0);
-}
-
-/* Footer */
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 90px;
-  text-align: center;
+.bodyLink A:hover{
   background-color: black;
+  transition: .2s;
+  text-decoration: none;
 }
-.copyright {
-  font-family: "MainFont";
-  font-size: 16px;
+.header {
+  text-align: right;
+  background-color: black;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.headerTitle {
+  font-family:"MainFont";
+  font-size:300%;
+  padding-left: 20px;
+  padding-right: 110px;
+  line-height: 1.3em;
+}
+.headerTitle A {
   color: rgb(255, 47, 47);
-  position: relative;
-  top: 15px;
-  margin-right: 0;
+  background-color: black;
+  text-decoration: none;
+  font-weight: normal;
+}
+.headerNav A {
+  color: white;
+  text-decoration: none;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+.headerNav A:hover {
+  background-color: rgb(255, 47, 47);
+  transition: .2s;
+  text-decoration: none;
+}
+.content {
+  padding: 18px;
+  padding-top: 10px;
+  text-align: left;
+  text-indent: 0px;
+  margin: 10px;
+}
+.footer {
+  font-size:small;
+  text-align: right;
+  background-color: black;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.footerText A {
+  text-decoration: none;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  color: white;
+}
+.footerText A:hover {
+  text-decoration: none;
+  background-color: rgb(255, 47, 47);
+  transition: .2s;
+  color: white;
 }
 .lastEdit:after {
-  content: 'December 11, 2024';
-}
-
-/* Horizontal Lines */
-
-.hide {
-  border: 0;
-  clear:both;
-  display:block;
-  width: 100%;
-  background-color: rgb(40, 40, 40);
-  height: 1px;
-}
-.light{
-  border: 0;
-  clear:both;
-  display:block;
-  width: 100%;
-  background-color: rgb(50, 50, 50);
-  height: 3px;
-}
-
-/* Miscellaneous */
-
-.copyButton:hover{
-  text-decoration-line: underline;
+  content: 'March 15, 2025';
 }
 ::selection{
   background-color: rgb(255, 47, 47);
   color: white;
-}
-.tooltip{
-  cursor: pointer;
-}
-.tooltip:hover::after {
-  content: attr(data-tooltip);
-  opacity: 1;
-}
-.tooltip:before,
-.tooltip:after {
-  content: '';
-  opacity: 0;
 }

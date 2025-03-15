@@ -1,109 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Become a member</title>
-    <link rel="shortcut icon" type="image/png" href="WebFiles/badGraphicalFinalLogo.png" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="WebFiles/badGraphical.png"
+    />
     <link href="Style.css" rel="stylesheet" />
-    <script>
-      function copyText() {
-        var copyText = "badgraphicalstudios@gmail.com";
-        navigator.clipboard.writeText(copyText);
-        alert("Text copied to clipboard");
-      }
-
-      function copyForm() {
-        formText.select();
-        document.execCommand("copy");
-        alert("Form copied to clipboard");
-      }
-    </script>
+    <meta name="description" content="The Official BadGraphical W" />
+    <meta name="keywords" content="badgraphical, games, development" />
   </head>
   <body>
-    <a class="mainHeading" href="index.html"
-      >Bad<span class="red">Graphical</span> Studios</a
-    >
-
-    <div class="linkDiv" style="left: 25%">
-      <a class="link" href="games.html">Games</a>
-    </div>
-
-    <div class="linkDiv" style="left: 50%">
-      <a class="link" href="about.html">About us</a>
-    </div>
-
-    <div class="linkDiv" style="left: 75%">
-      <a class="deadLink">Become a member<br />'''''''''''''''''''''''''''''''''''''''</a>
-    </div>
-
-    <div>
-      <hr style="position: absolute; height: 3px; top: 150px" />
-      <p class="pageTitle">Become a member</p>
-      <hr style="position: absolute; height: 3px; top: 250px" />
-    </div>
-
-    <p style="position: absolute; top: 270px">
-      <span style="font-size: 32px; font-weight: bold">Membership request form</span>
-      <br />
-      <br />
-      Please fill out this form, then copy it and email it to us at:
-      <br />
-      <button class="copyButton" onClick="copyText()">
-        badgraphicalstudios@gmail.com
-      </button>
-      <br />
-      <br />
-      <button style="font-weight: bold" class="copyButton" onclick="copyForm()">
-        Copy Form
-      </button>
-      <br />
-      <br />
-      <textarea id="formText">
------------------------------------------------------------------------------------------------------------------------
+    <table class="tableRoot">
+      <tr>
+        <td class="header">
+          <!-- Title -->
+          <span class="headerTitle">
+            <a href="index.html"
+              ><span style="color: white">Bad</span>Graphical</a
+            >
+          </span>
+          <!-- Navigation -->
+          <span class="headerNav">
+            <a href="games.html">Games</a>
+            <a href="about.html">About</a>
+            <a href="becomeamember.html">Become a member</a>
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td class="content">
+          <!-- Content -->
+          <h1>Become a member</h1>
+          <hr />
+          <h2>Membership request form</h2>
+          <p>
+            Fill out this form to the best of your ability, then email it to us
+            at
+            <span style="color: rgb(255, 47, 47)"
+              >badgraphicalstudios@gmail.com</span
+            >.
+          </p>
+          <textarea id="formText">
+<!-- 90 characters across -->
+-----------------------------------------------------------------------------------------
 BadGraphical Membership Request Form
 
-Iteration Number: 4
-This iteration created on December 11, 2024
+Iteration Number: 5
+This iteration created on March 15, 2025
 
-!-- DO NOT EDIT/DELETE ANY PRE-WRITTEN TEXT. DOING SO WILL RESULT IN YOUR REQUEST BEING DENIED. --!
------------------------------------------------------------------------------------------------------------------------
-READ ME
------------------------------------------------------------------------------------------------------------------------
-THIS IS NOT A PAID POSITION. BECOMING A MEMBER IS VOLUNTARY.
+! Previous iterations will not be accepted. !
 
-I wish to become a member of BadGraphical Studios. I understand that my request may be denied, even if the reason for
-denial is unclear. I understand that becoming a member may not be permanent, and I could have my membership revoked at
-any time, even if the reason is unclear.
+! Do not edit/delete any pre-written text. Doing so will invalidate the request. !
+-----------------------------------------------------------------------------------------
+Read Me                                                                        * Required
+-----------------------------------------------------------------------------------------
+! Before submitting this request, you must agree to the following: !
 
-I understand that becoming a member DOES NOT mean that I own a share of this company. I understand that I may NEVER
-make a cent of profit from this company.
+I wish to become a member of BadGraphical Studios. I understand that my request may be
+denied, even if the reason of denial is unclear. I understand that my membership may be
+revoked at any time, even if the reason of revocation is unclear.
 
-Anything I create exclusively for BadGraphical Studios WILL NOT be shared publicly, unless permission is given from the
-head office of BadGraphical Studios.
+I understand that becoming a member is voluntary, and I may not reveive an income.
 
-FAILURE TO COMPLY WITH THESE RULES MAY RESULT IN LEGAL ACTION.
+! If your contribution to our company is significant, you may receive an income. !
 
-If we believe that you are a suitable member of our team, you may be promoted to a higher position. This new position
-may involve payment.
+Agree (Yes / No) *
+> 
 
------------------------------------------------------------------------------------------------------------------------
-Required Information                                                                                         * Required
------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+Required Information                                                           * Required
+-----------------------------------------------------------------------------------------
 Current Date (DD.MM.YYYY) *
 > 
 
-Site Publication Date (found in footer) *
-> 
-
-Membership Iteration Number (found at top of form) *
-> 
-
------------------------------------------------------------------------------------------------------------------------
-Personal Information                                                                                         * Required
------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+Personal Information                                                           * Required
+-----------------------------------------------------------------------------------------
 First Name *
+> 
+
+Nickname
 > 
 
 Surname
@@ -121,9 +100,9 @@ Phone No.
 P.O. Box
 > 
 
------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
 Availability
------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
 Days (e.g. Monday - Friday)
 > 
 
@@ -133,10 +112,10 @@ Hours (e.g. 9:00am - 5:00pm)
 Exceptions (e.g. 9:00am - 3:00pm only on Wednesdays)
 > 
 
------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
 General Questions
------------------------------------------------------------------------------------------------------------------------
-!-- Please answer the following questions to the best of your ability --!
+-----------------------------------------------------------------------------------------
+! Please answer the following questions to the best of your ability. !
 
 Have you had any experience with game development?
 > 
@@ -144,57 +123,57 @@ Have you had any experience with game development?
 Have you ever made a profit from producing video games?
 > 
 
-Do you enjoy game development?
+Have you had any experience with any programming languages? List them below
 > 
 
------------------------------------------------------------------------------------------------------------------------
-What team I wish to be a part of at BadGraphical Studios
------------------------------------------------------------------------------------------------------------------------
-At BadGraphical Studios, we are dedicated to using the Unreal Engine to create our games.
+-----------------------------------------------------------------------------------------
+My position at BadGraphical Studios                                            * Required
+-----------------------------------------------------------------------------------------
+! At BadGraphical Studios, we currently use Unreal Engine 4 to create our games. For
+  modelling and animation, we currently use Blender 3.6 LTS. !
 
 Teams:
 
   - Coding
-      The Coding Team is responsible for working on the main mechanics and features of the game. The Unreal Engine uses
-      a built-in blueprint scripting language for coding.
+      The Coding Team is responsible for working on the main mechanics and features of
+      the game. The Unreal Engine uses C++ and blueprints (visual scripting) for coding.
 
   - Animating
-      The Animating Team is responsible for working on the animations used in the game. Animators must use Blender (or
-      similar) to animate. Animations must be exported as .fbx files.
+      The Animating Team is responsible for working on the animations used in the game.
+      Animators must use Blender 3.6 LTS to animate. Animations must be exported as .fbx
+      files.
 
   - Modelling
-      The Modelling Team is responsible for working on the character and object models in the game. Modellers must use
-      Blender (or similar) to model. Models must be exported as .fbx files.
+      The Modelling Team is responsible for creating the character and object models in
+      our games. Modellers must use Blender 3.6 LTS to model. Models must be exported as
+      .fbx files.
 
   - Ideas and concepts
-      The Ideas and Concepts Team is responsible for thinking of new ideas, both for new and existing projects. They
-      may also help out with company decisions.
+      The Ideas and Concepts Team is responsible for thinking of or expanding on ideas,
+      both for new and existing projects.
       
-Select the position(s) you wish to acquire and explain why the position(s) was chosen
+Select the position(s) you wish to acquire and explain your decision *
 > 
 
------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
 Additional Notes
------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
 Please add any questions/comments here
 > 
-        </textarea
-      >
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-    </p>
 
-    <div class="footer">
-      <hr class="aboveFooter" />
-      <p class="copyright">
-        Copyright © 2024<em> BadGraphical </em><br />Site last edited on
-        <span class="lastEdit"></span>
-      </p>
-    </div>
+-----------------------------------------------------------------------------------------
+          </textarea>
+        </td>
+      </tr>
+      <tr>
+        <td class="footer">
+          <!-- Footer -->
+          <span class="footerText">
+            <a>Copyright © 2025 BadGraphical</a>
+            <a>Last edited on <span class="lastEdit"></span></a>
+          </span>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>

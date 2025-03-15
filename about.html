@@ -1,92 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About us</title>
+    <title>About</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <link
       rel="shortcut icon"
       type="image/png"
-      href="WebFiles/badGraphicalFinalLogo.png"
+      href="WebFiles/badGraphical.png"
     />
     <link href="Style.css" rel="stylesheet" />
+    <meta name="description" content="The Official BadGraphical W" />
+    <meta name="keywords" content="badgraphical, games, development" />
   </head>
   <body>
-    <a class="mainHeading" href="index.html"
-      >Bad<span class="red">Graphical</span> Studios</a
-    >
-
-    <div class="linkDiv" style="left: 25%">
-      <a class="link" href="games.html">Games</a>
-    </div>
-
-    <div class="linkDiv" style="left: 50%">
-      <a class="deadLink">About us<br />'''''''''''''''''''</a>
-    </div>
-
-    <div class="linkDiv" style="left: 75%">
-      <a class="link" href="becomeamember.html">Become a member</a>
-    </div>
-
-    <div>
-      <hr style="position: absolute; height: 3px; top: 150px" />
-      <p class="pageTitle">About us</p>
-      <hr style="position: absolute; height: 3px; top: 250px" />
-    </div>
-    <p style="position: absolute; top: 270px">
-      <span style="font-size: 32px; font-weight: bold">Who are we?</span>
-      <br />
-      <br />
-      We're a small game development team located in New South Wales, Australia.
-      We focus on creating games that are primarily entertaining, not
-      necessarily games with stunning graphics and smooth gameplay. If the
-      quality of our games are not up to your standards, then please do not
-      complain. We are called
-      <em>BadGraphical</em> for a reason.
-      <br />
-      <br />
-      <br />
-
-      <span style="font-size: 32px; font-weight: bold">Our contact info</span>
-      <br />
-      <br />
-      Email:
-      <br />
-      <button class="copyButton" onClick="copyText()">
-        badgraphicalstudios@gmail.com
-      </button>
-      <br />
-      <br />
-      <br />
-
-      <span style="font-size: 32px; font-weight: bold">Meet our team</span>
-      <br />
-      <br />
-      Main Team:
-      <br />
-      <br />
-      <span style="color: rgb(255, 47, 47)">Max Foster</span>
-      <br />- Founder of
-      <em>BadGraphical</em>
-      <br />
-      <br />
-      Members:
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-    </p>
-
-    <div class="footer">
-      <hr class="aboveFooter" />
-      <p class="copyright">
-        Copyright © 2024<em> BadGraphical </em><br />Site last edited on
-        <span class="lastEdit"></span>
-      </p>
-    </div>
+    <table class="tableRoot">
+      <tr>
+        <td class="header">
+          <!-- Title -->
+          <span class="headerTitle">
+            <a href="index.html"
+              ><span style="color: white">Bad</span>Graphical</a
+            >
+          </span>
+          <!-- Navigation -->
+          <span class="headerNav">
+            <a href="games.html">Games</a>
+            <a href="about.html">About</a>
+            <a href="becomeamember.html">Become a member</a>
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td class="content">
+          <!-- Content -->
+          <h1>About us</h1>
+          <hr />
+          <h2>Who are we?</h2>
+          <p>
+            We are a small Australian game development company. Our games are
+            designed to give off an early 2000s aesthetic, as it give a sense of
+            nostalgia. Please don't expect AAA game quality, we are called
+            <em>BadGraphical</em> for a reason.
+          </p>
+          <hr />
+          <h2>Our contact info</h2>
+          <p>
+            <strong>Email: </strong
+            ><span style="color: rgb(255, 47, 47)"
+              >badgraphicalstudios@gmail.com</span
+            >
+          </p>
+          <hr />
+          <h2>Meet our team</h2>
+          <p>
+            <strong>Max Foster</strong><br />- Founder of <em>BadGraphical</em>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td class="footer">
+          <!-- Footer -->
+          <span class="footerText">
+            <a>Copyright © 2025 BadGraphical</a>
+            <a>Last edited on <span class="lastEdit"></span></a>
+          </span>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
