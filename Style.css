@@ -7,8 +7,9 @@ body {
   font-weight: normal;
   font-style: normal;
   font-size: 100%;
-  background-image: url("WebFiles/background.png");
-  background-size: 4%;
+  background-color: black;
+  background-image: url("WebFiles/keys.png");
+  background-size: 100%;
   color: white;
 }
 a {
@@ -119,7 +120,7 @@ hr {
   color: white;
 }
 .lastEdit:after {
-  content: 'May 30, 2025';
+  content: 'July 12, 2025';
 }
 ::selection{
   background-color: rgb(255, 47, 47);
