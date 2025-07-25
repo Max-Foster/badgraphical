@@ -120,7 +120,7 @@ hr {
   color: white;
 }
 .lastEdit:after {
-  content: 'July 12, 2025';
+  content: 'July 25, 2025';
 }
 ::selection{
   background-color: rgb(255, 47, 47);
