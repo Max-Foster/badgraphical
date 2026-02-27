@@ -18,7 +18,7 @@ textarea{
   font-size: 16px;
   color: white;
   background-color: black;
-  width: 601px;
+  width: 100%;
   height: 800px;
   resize: none;
 }
