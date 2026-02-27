@@ -1,3 +1,3 @@
-This is the official webpage for BadGraphical Studios.
-Copyright (c) 2025 BadGraphical.
-Last updated on Feb 27, 2026.
+This is the official webpage for BadGraphical.
+Copyright (c) 2026 BadGraphical.
+Last updated on Feb 28, 2026.
