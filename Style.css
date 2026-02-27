@@ -29,8 +29,8 @@ hr {
 }
 .tableRoot {
   margin: 0 auto;
-  min-width: 850px;
-  max-width: 850px;
+  min-width: 800px;
+  max-width: 800px;
   background-color: rgb(20, 20, 20);
   border: 0px solid rgb(128, 128, 128);
   border-spacing:0;
@@ -58,7 +58,7 @@ hr {
 }
 .headerTitle {
   font-size: 300%;
-  padding-right: 100px;
+  padding-right: 50px;
   line-height: 1.3em;
 }
 .headerTitle A {
