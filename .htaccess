@@ -1,6 +1,6 @@
 RewriteEngine On
-RewriteCond %{THE_REQUEST} \s/+(.*?)\.htm[\s?] [NC]
-RewriteRule ^ /%1 [R=301,L]
+RewriteCond %{THE_REQUEST} /([^.]+)\.htm [NC]
+RewriteRule ^ /%1 [NC,L,R=301]
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.htm -f
-RewriteRule ^(.*)$ $1.htm [L]
+RewriteCond %{REQUEST_FILENAME}.htm -f
+RewriteRule ^(.*)$ $1.htm [NC,L]
